@@ -1,0 +1,23 @@
+h1{
+    font-family: lato;
+}
+.fa-brands{
+  margin: 35px;
+}
+.fa-solid{
+  margin: 35px;
+}
+p{
+  font-family: ubuntu;
+}
+.square{
+  display: inline-block; 
+  height: 9rem;
+  margin: 5rem;
+  outline: 3px;
+  outline-style: dotted;
+  width: 9rem;
+}
+.title{
+  text-align: center;
+}
