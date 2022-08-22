@@ -19,7 +19,7 @@ document.addEventListener("keypress", function(evt) {
         //use this to make all keys lower case should find a way to join this and animation function
         var LowerCaseKey = key.toLowerCase();
         document.getElementsByClassName(key).innerHTML = LowerCaseKey;
-        //this.innerHTML will grag whats inside the button if spaces are in it it wont grab event
+        //this.innerHTML will grab what's inside the button if spaces are inside html element it won't grab text inside button
    switch(LowerCaseKey){
        case"a":
         alert("a is for apple");
@@ -107,12 +107,11 @@ function AnimationEffect(currentKey) {
     //need to join to switch statement function 
     var lowerCaseKey = currentKey.toLowerCase();
         document.getElementsByClassName(currentKey).innerHTML = lowerCaseKey;
-console.log(lowerCaseKey);
     var activeButton = document.querySelector("." + lowerCaseKey);
   
     activeButton.classList.add(lowerCaseKey+"Pressed");
-    setTimeout(function(){
-    activeButton.classList.remove(lowerCaseKey+"Pressed");
-    },1000);
+    //setTimeout(function(){
+    //activeButton.classList.remove(lowerCaseKey+"Pressed");
+    //},1000);
 }
 
