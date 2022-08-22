@@ -110,8 +110,8 @@ function AnimationEffect(currentKey) {
     var activeButton = document.querySelector("." + lowerCaseKey);
   
     activeButton.classList.add(lowerCaseKey+"Pressed");
-    //setTimeout(function(){
-    //activeButton.classList.remove(lowerCaseKey+"Pressed");
-    //},1000);
+    setTimeout(function(){
+    activeButton.classList.remove(lowerCaseKey+"Pressed");
+    },1000);
 }
 
