@@ -1,23 +1,183 @@
-h1{
+h1 {
     font-family: lato;
 }
-.fa-brands{
-  margin: 35px;
+
+.fa-brands {
+    margin: 35px;
 }
-.fa-solid{
-  margin: 35px;
+
+.fa-solid {
+    margin: 35px;
 }
-p{
-  font-family: ubuntu;
+
+p {
+    font-family: ubuntu;
 }
-.square{
-  display: inline-block; 
-  height: 9rem;
-  margin: 5rem;
-  outline: 3px;
-  outline-style: dotted;
-  width: 9rem;
+
+.square {
+    display: inline-block;
+    height: 9rem;
+    margin: 5rem;
+    outline: 3px;
+    width: 9rem;
 }
-.title{
-  text-align: center;
+
+.title {
+    text-align: center;
+}    
+
+.aPressed{
+    color: red;
+    font-size: 100px;
+    border-style: inset;
+}
+.bPressed{
+    color:tan;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.cPressed{
+    color: black;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.dPressed{
+    color: grey;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.ePressed{
+    color: brown;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.fPressed{
+    color: green;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.gPressed{
+    color: tan;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.hPressed{
+    color: silver;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.iPressed{
+    color: lightblue;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.jPressed{
+    color: black;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.kPressed{
+    color: gold;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.lPressed{
+    color: darkgray;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.mPressed{
+    color: red;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.nPressed{
+    color: gray;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.oPressed{
+    color: plum;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.pPressed{
+    color:greenyellow;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.qPressed{
+    color: goldenrod;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.rPressed{
+    color: black;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.sPressed{
+    color: yellow;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.tPressed{
+    color: silver;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.uPressed{
+    color: navy;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.vPressed{
+    color: orangered;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.wPressed{
+    color: tan;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.xPressed{
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.yPressed{
+    color: pink;
+    font-size: 100px;
+    border-style: inset;
+}
+
+.zPressed{
+    color: silver;
+    font-size: 100px;
+    border-style: inset;
 }
